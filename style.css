@@ -39,7 +39,7 @@ body {
 }
 
 .content {
-    background-image: url('Sfondo.jpg');
+    background-image: url('\Sfondo.jpg');
     background-size: cover;
     background-position: center;
     height: 100% /* Altezza residua sotto il banner */
