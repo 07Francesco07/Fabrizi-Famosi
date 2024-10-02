@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Sfondo bianco di default */
+    height: 100vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F175; /* Colore di sfondo del banner */
+    height: 180px; /* Altezza del banner */
+    padding: 20px;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Spaziatura tra i tag del menu */
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black; /* Colore del testo nel menu */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    background-image: url('Sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100% /* Altezza residua sotto il banner */
+}
